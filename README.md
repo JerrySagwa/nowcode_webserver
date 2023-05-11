@@ -23,5 +23,14 @@
 *制作过程*
 
 - gcc -- .o 文件
+- gcc -c xx.cpp xx.cpp 
 - 将 .o 文件打包<img src="assets/image-20230511162045961.png" alt="image-20230511162045961" style="zoom:33%;" />
-- 
+
+*使用*
+
+```
+g++ main.cpp -o app -L[静态库搜索路径] -l[静态库名称(无前后缀)]
+```
+
+## 动态库
+
